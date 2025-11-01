@@ -19,6 +19,6 @@ int	main(int argc, const char* argv[])
 		std::cout << '\n';
 		return (0);
 	}
-	std::cout << "./Conversion_of_scalar_types <literal>" << std::endl;
+	std::cout << "./Conversion_of_scalar_types <literal> ..." << std::endl;
 	return (1);
 }
