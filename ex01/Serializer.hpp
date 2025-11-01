@@ -1,7 +1,7 @@
 #ifndef SERIALIZER_HPP
 #define SERIALIZER_HPP
 
-#include "Data.h"
+#include "Data.hpp"
 #include <stdint.h>
 
 class Serializer

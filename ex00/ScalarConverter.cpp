@@ -273,6 +273,10 @@ void	ScalarConverter::convertDouble(double const d)
 
 
 
+
+
+
+
 ScalarConverter::ScalarConverter(void)
 
 {

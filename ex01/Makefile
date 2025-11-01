@@ -1,5 +1,5 @@
 SOURCES		= main.cpp Serializer.cpp
-HEADERS		= Serializer.hpp Data.h
+HEADERS		= Serializer.hpp Data.hpp
 OBJECTS_DIR = .objects/
 DEPENDS_DIR	= .deps/
 OBJECTS     = ${SOURCES:%.cpp=${OBJECTS_DIR}%.o}
