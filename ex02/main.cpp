@@ -1,13 +1,13 @@
 #include "Base.hpp"
-#include "A.hpp"
-#include "B.hpp"
-#include "C.hpp"
 
-int	main(int argc, char* const argv[])
+int	main(void)
 
 {
-	(void)argc;
-	(void)argv;
-	Base*	feur = generate();
-	(void)feur;
+	Base* const	p = generate();
+
+	if (!p)
+		return (1);
+	identify(p);
+	identify(*p);
+	delete (p);
 }
